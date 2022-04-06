@@ -1,0 +1,67 @@
+# print(dir(list))
+# a=[1,2,5]                               
+# print(a,type())
+
+# b=[1,2.4,'shainy',[1,2.4,"shn"]]
+# print(b,type(b))
+# print(b[0],type(b[0]))
+# print(b[1],type(b[1]))
+# print(b[2],type(b[2]))
+# print(b[3],type(b[3]))
+# print(b[3][0],type(b[3][0]))
+# print(b[3][1],type(b[3][1]))
+# print(b[3][2],type(b[3][2]))
+# print(b[6])                      #list index out of range 
+# print(b.index(8))                    #8 is in not list
+
+# a=['shainaz','vahid' ,'parvin']
+# a.append("mubarak")
+# print(a)
+
+# a=[1,2.4,'shn']
+# b=[2,3.5,'shn']
+# a.extend(b)
+# b.extend(a)
+# print(a)
+# print(b)
+
+# a=[5,7.8,'shn']
+# a.copy()
+# print(a)
+
+# a=[5,7.8,'shn']
+# a.clear()
+# print(a)
+
+# a=[5,7.8,'shn',[3,5.6,'b']]
+# a.insert(0,'shn')
+# print(a)
+
+# a=[5,7.2,3,7,9]
+# a.sort()
+# print(a)
+# b=a.sort(reverse=True)
+# print(b)   # none
+
+# a.sort(reverse=True)
+# print(a)
+
+# a=[5,7.2,3,7,9,9,[3,5.6,'b',1,9]]
+# print(a.count(1))
+# print(a.count(9))
+# print(a[6].count(1))
+
+# a=[5,7.2,3,7,9]
+# a.remove(5)
+# print(a)
+
+# a=[5,7.2,3,7,9]
+# a.pop()
+# print(a)        #[5,7.2,3,7,]
+# a.pop(4)
+# print(a)
+# print(a.pop())           #9
+
+# a=[5,7.2,3,7,9]
+# a.reverse()
+# print(a)
